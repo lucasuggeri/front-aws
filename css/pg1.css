@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(178, 172, 250);
+  margin: 10px;
+}
+
+.container {
+  display: inline;
+}
+.container p {
+  font-family: sans-serif;
+}
+.container div {
+  margin: 2px;
+  background-color: rgba(231, 181, 247, 0.466);
+  border: 3px solid rgba(207, 87, 243, 0.815);
+  height: 200px;
+  border-radius: 10px;
+}
+#pato {
+  width: 100px;
+  background-size: 200px;
+  border-radius: 4px;
+}
