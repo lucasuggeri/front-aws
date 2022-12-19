@@ -1,25 +1,53 @@
 body {
-  background-color: rgb(178, 172, 250);
-  margin: 10px;
+  background-color: rgba(217, 175, 255, 0.596);
+  margin: 0px;
 }
 
 .container {
-  display: inline;
+  display: flexbox;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .container p {
   max-height: 200px;
   font-family: cursive;
 }
+#div_pato {
+  width: 240px;
+}
+
 .container div {
   padding: 3px;
   margin: 2px;
-  background-color: rgba(231, 181, 247, 0.466);
-  border: 3px solid rgba(207, 87, 243, 0.815);
+  background-color: rgba(219, 132, 248, 0.425);
   height: 200px;
-  border-radius: 10px;
 }
 #pato {
   width: 120px;
-  background-size: 200px;
+  background-size: 0px;
   border-radius: 4px;
+}
+#sorriso {
+  width: 145px;
+}
+#div_sorriso {
+  width: 30%;
+  float: right;
+  border: 5px;
+}
+#linha_1 {
+  width: 65%;
+}
+#olhos {
+  width: 145px;
+}
+#div_olhos {
+  border: 5px;
+  padding: auto;
+  width: 30%;
+  float: left;
+}
+#linha_2 {
 }
